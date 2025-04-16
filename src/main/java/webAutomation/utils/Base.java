@@ -3,6 +3,7 @@ package webAutomation.utils;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -20,10 +21,21 @@ public class Base
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
 	}
+
+	public void isDisplayed(WebElement ele)
+	{
+		if(ele.isDisplayed())
+		{
+			System.out.println("Element is visible");
+		}
+		else
+			System.out.println("Element is not visible");
+	}
 	
 	@AfterClass
-	public void teardown()
+	public void teardown() throws InterruptedException
 	{
+		Thread.sleep(3000);
 		driver.quit();
 		
 	}
