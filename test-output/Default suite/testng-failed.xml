@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumFramework.FirstDriver">
+      <class name="seleniumFramework.PracticePage">
         <methods>
-          <include name="table"/>
           <include name="teardown"/>
           <include name="initialise"/>
+          <include name="table"/>
         </methods>
-      </class> <!-- seleniumFramework.FirstDriver -->
+      </class> <!-- seleniumFramework.PracticePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

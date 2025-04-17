@@ -1,5 +1,6 @@
 package seleniumFramework;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -181,10 +182,12 @@ public class PracticePage extends Base {
 	}
 	
 	@Test(priority=12)
-	public void table()
+	public void table() throws IOException
 	{
+		
 		WebElement ele =driver.findElement(By.xpath("//legend[text()='Web Table Fixed header']"));
 		((JavascriptExecutor)driver).executeScript("arguments[0].scrollToView", ele);
+		takeScreenshot();
 		List<WebElement> tableHead = driver.findElements(By.xpath("//div[@class='tableFixHead']//table//thead//tr"));
 		for(WebElement h:tableHead)
 		{
@@ -198,6 +201,7 @@ public class PracticePage extends Base {
 			
 		}
 		System.out.println(" ");
+		
 	}
 	
 	
