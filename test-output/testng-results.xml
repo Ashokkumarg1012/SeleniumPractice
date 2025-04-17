@@ -1,57 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-16T18:07:39 IST" name="Default suite" finished-at="2025-04-16T18:13:05 IST" duration-ms="326448">
+  <suite started-at="2025-04-17T12:03:36 IST" name="Default suite" finished-at="2025-04-17T12:04:09 IST" duration-ms="33566">
     <groups>
     </groups>
-    <test started-at="2025-04-16T18:07:39 IST" name="Default test" finished-at="2025-04-16T18:13:05 IST" duration-ms="326448">
+    <test started-at="2025-04-17T12:03:36 IST" name="Default test" finished-at="2025-04-17T12:04:09 IST" duration-ms="33566">
       <class name="seleniumFramework.FirstDriver">
-        <test-method is-config="true" signature="initialise()[pri:0, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:07:39 IST" name="initialise" finished-at="2025-04-16T18:12:45 IST" duration-ms="305824" status="PASS">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:03:36 IST" name="initialise" finished-at="2025-04-17T12:03:54 IST" duration-ms="18134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialise -->
-        <test-method signature="radioButton()[pri:1, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:12:45 IST" name="radioButton" finished-at="2025-04-16T18:12:51 IST" duration-ms="6413" status="PASS">
+        <test-method signature="radioButton()[pri:1, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:03:54 IST" name="radioButton" finished-at="2025-04-17T12:03:55 IST" duration-ms="1223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioButton -->
-        <test-method signature="suggestions()[pri:2, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:12:51 IST" name="suggestions" finished-at="2025-04-16T18:12:51 IST" duration-ms="445" status="PASS">
+        <test-method signature="suggestions()[pri:2, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:03:55 IST" name="suggestions" finished-at="2025-04-17T12:03:56 IST" duration-ms="854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suggestions -->
-        <test-method signature="dropdown()[pri:3, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:12:51 IST" name="dropdown" finished-at="2025-04-16T18:12:52 IST" duration-ms="175" status="PASS">
+        <test-method signature="dropdown()[pri:3, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:03:56 IST" name="dropdown" finished-at="2025-04-17T12:03:57 IST" duration-ms="515" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropdown -->
-        <test-method signature="checkbox()[pri:4, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:12:52 IST" name="checkbox" finished-at="2025-04-16T18:12:52 IST" duration-ms="130" status="PASS">
+        <test-method signature="checkbox()[pri:4, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:03:57 IST" name="checkbox" finished-at="2025-04-17T12:03:57 IST" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkbox -->
-        <test-method signature="windowHandles()[pri:5, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:12:52 IST" name="windowHandles" finished-at="2025-04-16T18:12:55 IST" duration-ms="2764" status="PASS">
+        <test-method signature="windowHandles()[pri:5, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:03:57 IST" name="windowHandles" finished-at="2025-04-17T12:04:01 IST" duration-ms="4510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowHandles -->
-        <test-method signature="switchTab()[pri:6, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:12:55 IST" name="switchTab" finished-at="2025-04-16T18:12:55 IST" duration-ms="650" status="PASS">
+        <test-method signature="switchTab()[pri:6, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:04:01 IST" name="switchTab" finished-at="2025-04-17T12:04:03 IST" duration-ms="2027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchTab -->
-        <test-method signature="alerts()[pri:7, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:12:55 IST" name="alerts" finished-at="2025-04-16T18:12:55 IST" duration-ms="304" status="PASS">
+        <test-method signature="alerts()[pri:7, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:04:03 IST" name="alerts" finished-at="2025-04-17T12:04:04 IST" duration-ms="693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alerts -->
-        <test-method signature="scrollAction()[pri:8, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:12:55 IST" name="scrollAction" finished-at="2025-04-16T18:13:02 IST" duration-ms="6074" status="PASS">
+        <test-method signature="scrollAction()[pri:8, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:04:04 IST" name="scrollAction" finished-at="2025-04-17T12:04:04 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollAction -->
-        <test-method signature="elementVisibility()[pri:9, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:13:02 IST" name="elementVisibility" finished-at="2025-04-16T18:13:02 IST" duration-ms="189" status="PASS">
+        <test-method signature="elementVisibility()[pri:9, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:04:04 IST" name="elementVisibility" finished-at="2025-04-17T12:04:05 IST" duration-ms="720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elementVisibility -->
-        <test-method signature="mousehover()[pri:10, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:13:02 IST" name="mousehover" finished-at="2025-04-16T18:13:02 IST" duration-ms="234" status="PASS">
+        <test-method signature="mousehover()[pri:10, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:04:05 IST" name="mousehover" finished-at="2025-04-17T12:04:05 IST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mousehover -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumFramework.FirstDriver@2e3967ea]" started-at="2025-04-16T18:13:02 IST" name="teardown" finished-at="2025-04-16T18:13:05 IST" duration-ms="3196" status="PASS">
+        <test-method signature="frames()[pri:11, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:04:05 IST" name="frames" finished-at="2025-04-17T12:04:06 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frames -->
+        <test-method signature="table()[pri:12, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:04:06 IST" name="table" finished-at="2025-04-17T12:04:06 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- table -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumFramework.FirstDriver@4d5650ae]" started-at="2025-04-17T12:04:06 IST" name="teardown" finished-at="2025-04-17T12:04:09 IST" duration-ms="3409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -5,18 +5,9 @@
     <classes>
       <class name="seleniumFramework.FirstDriver">
         <methods>
-          <include name="checkbox"/>
-          <include name="mousehover"/>
+          <include name="table"/>
           <include name="teardown"/>
-          <include name="suggestions"/>
           <include name="initialise"/>
-          <include name="switchTab"/>
-          <include name="dropdown"/>
-          <include name="windowHandles"/>
-          <include name="alerts"/>
-          <include name="scrollAction"/>
-          <include name="radioButton"/>
-          <include name="elementVisibility"/>
         </methods>
       </class> <!-- seleniumFramework.FirstDriver -->
     </classes>
