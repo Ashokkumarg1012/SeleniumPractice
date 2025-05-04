@@ -1,52 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="tests" name="Test on firefox(failed)">
-    <parameter name="browserName" value="firefox"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumFramework.PracticePage">
+      <class name="seleniumFramework.Omayo">
         <methods>
-          <include name="teardown"/>
-          <include name="alerts"/>
-          <include name="scrollAction"/>
-          <include name="initialise"/>
-          <include name="elementVisibility"/>
-          <include name="radioButton"/>
-          <include name="setup"/>
-          <include name="suggestions"/>
-          <include name="checkbox"/>
-          <include name="mousehover"/>
-          <include name="table"/>
-          <include name="frames"/>
           <include name="dropdown"/>
-          <include name="windowHandles"/>
-          <include name="switchTab"/>
-        </methods>
-      </class> <!-- seleniumFramework.PracticePage -->
-    </classes>
-  </test> <!-- Test on firefox(failed) -->
-  <test thread-count="3" parallel="tests" name="Test on chrome(failed)">
-    <parameter name="browserName" value="chrome"/>
-    <classes>
-      <class name="seleniumFramework.PracticePage">
-        <methods>
           <include name="teardown"/>
-          <include name="alerts"/>
-          <include name="scrollAction"/>
-          <include name="initialise"/>
-          <include name="elementVisibility"/>
-          <include name="radioButton"/>
           <include name="setup"/>
-          <include name="suggestions"/>
-          <include name="checkbox"/>
-          <include name="mousehover"/>
-          <include name="table"/>
-          <include name="frames"/>
-          <include name="dropdown"/>
-          <include name="windowHandles"/>
-          <include name="switchTab"/>
+          <include name="Select"/>
+          <include name="isButtonEnabled"/>
+          <include name="uploadFile"/>
         </methods>
-      </class> <!-- seleniumFramework.PracticePage -->
+      </class> <!-- seleniumFramework.Omayo -->
     </classes>
-  </test> <!-- Test on chrome(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-17T13:40:06 IST" name="Suite" finished-at="2025-04-17T13:40:38 IST" duration-ms="31929">
+  <suite started-at="2025-05-04T15:28:27 IST" name="Suite" finished-at="2025-05-04T15:29:43 IST" duration-ms="76162">
     <groups>
     </groups>
-    <test started-at="2025-04-17T13:40:06 IST" name="Test on chrome" finished-at="2025-04-17T13:40:36 IST" duration-ms="29666">
+    <test started-at="2025-05-04T15:28:27 IST" name="Test" finished-at="2025-05-04T15:29:43 IST" duration-ms="76162">
       <class name="seleniumFramework.PracticePage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:06 IST" name="setup" finished-at="2025-04-17T13:40:21 IST" duration-ms="14547" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:13 IST" name="setup" finished-at="2025-05-04T15:29:15 IST" duration-ms="1912" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,126 +18,92 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="radioButton()[pri:1, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:21 IST" name="radioButton" finished-at="2025-04-17T13:40:22 IST" duration-ms="691" status="PASS">
+        <test-method signature="radioButton()[pri:1, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:15 IST" name="radioButton" finished-at="2025-05-04T15:29:29 IST" duration-ms="14239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- radioButton -->
-        <test-method signature="suggestions()[pri:2, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:22 IST" name="suggestions" finished-at="2025-04-17T13:40:22 IST" duration-ms="599" status="PASS">
+        <test-method signature="suggestions()[pri:2, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:29 IST" name="suggestions" finished-at="2025-05-04T15:29:30 IST" duration-ms="854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suggestions -->
-        <test-method signature="dropdown()[pri:3, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:22 IST" name="dropdown" finished-at="2025-04-17T13:40:23 IST" duration-ms="667" status="PASS">
+        <test-method signature="dropdown()[pri:3, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:30 IST" name="dropdown" finished-at="2025-05-04T15:29:30 IST" duration-ms="594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropdown -->
-        <test-method signature="checkbox()[pri:4, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:23 IST" name="checkbox" finished-at="2025-04-17T13:40:23 IST" duration-ms="367" status="PASS">
+        <test-method signature="checkbox()[pri:4, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:30 IST" name="checkbox" finished-at="2025-05-04T15:29:31 IST" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkbox -->
-        <test-method signature="windowHandles()[pri:5, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:23 IST" name="windowHandles" finished-at="2025-04-17T13:40:29 IST" duration-ms="5345" status="PASS">
+        <test-method signature="windowHandles()[pri:5, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:31 IST" name="windowHandles" finished-at="2025-05-04T15:29:35 IST" duration-ms="4348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowHandles -->
-        <test-method signature="switchTab()[pri:6, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:29 IST" name="switchTab" finished-at="2025-04-17T13:40:30 IST" duration-ms="1228" status="PASS">
+        <test-method signature="switchTab()[pri:6, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:35 IST" name="switchTab" finished-at="2025-05-04T15:29:37 IST" duration-ms="1939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchTab -->
-        <test-method signature="alerts()[pri:7, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:30 IST" name="alerts" finished-at="2025-04-17T13:40:30 IST" duration-ms="537" status="PASS">
+        <test-method signature="alerts()[pri:7, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:37 IST" name="alerts" finished-at="2025-05-04T15:29:38 IST" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alerts -->
-        <test-method signature="scrollAction()[pri:8, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:30 IST" name="scrollAction" finished-at="2025-04-17T13:40:31 IST" duration-ms="107" status="PASS">
+        <test-method signature="scrollAction()[pri:8, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:38 IST" name="scrollAction" finished-at="2025-05-04T15:29:38 IST" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollAction -->
-        <test-method signature="elementVisibility()[pri:9, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:31 IST" name="elementVisibility" finished-at="2025-04-17T13:40:32 IST" duration-ms="1091" status="PASS">
+        <test-method signature="elementVisibility()[pri:9, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:38 IST" name="elementVisibility" finished-at="2025-05-04T15:29:39 IST" duration-ms="693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elementVisibility -->
-        <test-method signature="mousehover()[pri:10, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:32 IST" name="mousehover" finished-at="2025-04-17T13:40:32 IST" duration-ms="323" status="PASS">
+        <test-method signature="mousehover()[pri:10, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:39 IST" name="mousehover" finished-at="2025-05-04T15:29:39 IST" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mousehover -->
-        <test-method signature="frames()[pri:11, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:32 IST" name="frames" finished-at="2025-04-17T13:40:32 IST" duration-ms="258" status="PASS">
+        <test-method signature="frames()[pri:11, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:39 IST" name="frames" finished-at="2025-05-04T15:29:39 IST" duration-ms="364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- frames -->
-        <test-method signature="table()[pri:12, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:32 IST" name="table" finished-at="2025-04-17T13:40:33 IST" duration-ms="373" status="PASS">
+        <test-method signature="table()[pri:12, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:39 IST" name="table" finished-at="2025-05-04T15:29:40 IST" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- table -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumFramework.PracticePage@4d1bf319]" started-at="2025-04-17T13:40:33 IST" name="teardown" finished-at="2025-04-17T13:40:36 IST" duration-ms="3432" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumFramework.PracticePage@363042d7]" started-at="2025-05-04T15:29:40 IST" name="teardown" finished-at="2025-05-04T15:29:43 IST" duration-ms="3354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- seleniumFramework.PracticePage -->
-    </test> <!-- Test on chrome -->
-    <test started-at="2025-04-17T13:40:06 IST" name="Test on firefox" finished-at="2025-04-17T13:40:38 IST" duration-ms="31928">
-      <class name="seleniumFramework.PracticePage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:06 IST" name="setup" finished-at="2025-04-17T13:40:27 IST" duration-ms="20911" status="PASS">
+      <class name="seleniumFramework.Omayo">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:seleniumFramework.Omayo@77b14724]" started-at="2025-05-04T15:28:27 IST" name="setup" finished-at="2025-05-04T15:28:31 IST" duration-ms="3579" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="radioButton()[pri:1, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:27 IST" name="radioButton" finished-at="2025-04-17T13:40:29 IST" duration-ms="1293" status="PASS">
+        <test-method signature="Select()[pri:0, instance:seleniumFramework.Omayo@77b14724]" started-at="2025-05-04T15:28:31 IST" name="Select" finished-at="2025-05-04T15:29:01 IST" duration-ms="30765" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- radioButton -->
-        <test-method signature="suggestions()[pri:2, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:29 IST" name="suggestions" finished-at="2025-04-17T13:40:29 IST" duration-ms="801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- suggestions -->
-        <test-method signature="dropdown()[pri:3, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:29 IST" name="dropdown" finished-at="2025-04-17T13:40:30 IST" duration-ms="568" status="PASS">
+        </test-method> <!-- Select -->
+        <test-method signature="dropdown()[pri:0, instance:seleniumFramework.Omayo@77b14724]" started-at="2025-05-04T15:29:01 IST" name="dropdown" finished-at="2025-05-04T15:29:02 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dropdown -->
-        <test-method signature="checkbox()[pri:4, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:30 IST" name="checkbox" finished-at="2025-04-17T13:40:30 IST" duration-ms="454" status="PASS">
+        <test-method signature="isButtonEnabled()[pri:0, instance:seleniumFramework.Omayo@77b14724]" started-at="2025-05-04T15:29:02 IST" name="isButtonEnabled" finished-at="2025-05-04T15:29:02 IST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkbox -->
-        <test-method signature="windowHandles()[pri:5, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:30 IST" name="windowHandles" finished-at="2025-04-17T13:40:31 IST" duration-ms="1011" status="PASS">
+        </test-method> <!-- isButtonEnabled -->
+        <test-method signature="uploadFile()[pri:0, instance:seleniumFramework.Omayo@77b14724]" started-at="2025-05-04T15:29:02 IST" name="uploadFile" finished-at="2025-05-04T15:29:09 IST" duration-ms="7820" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- windowHandles -->
-        <test-method signature="switchTab()[pri:6, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:31 IST" name="switchTab" finished-at="2025-04-17T13:40:32 IST" duration-ms="299" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- switchTab -->
-        <test-method signature="alerts()[pri:7, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:32 IST" name="alerts" finished-at="2025-04-17T13:40:32 IST" duration-ms="517" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alerts -->
-        <test-method signature="scrollAction()[pri:8, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:32 IST" name="scrollAction" finished-at="2025-04-17T13:40:32 IST" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollAction -->
-        <test-method signature="elementVisibility()[pri:9, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:32 IST" name="elementVisibility" finished-at="2025-04-17T13:40:33 IST" duration-ms="640" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- elementVisibility -->
-        <test-method signature="mousehover()[pri:10, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:33 IST" name="mousehover" finished-at="2025-04-17T13:40:33 IST" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mousehover -->
-        <test-method signature="frames()[pri:11, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:33 IST" name="frames" finished-at="2025-04-17T13:40:33 IST" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- frames -->
-        <test-method signature="table()[pri:12, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:33 IST" name="table" finished-at="2025-04-17T13:40:34 IST" duration-ms="209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- table -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumFramework.PracticePage@5884a914]" started-at="2025-04-17T13:40:34 IST" name="teardown" finished-at="2025-04-17T13:40:38 IST" duration-ms="4654" status="PASS">
+        </test-method> <!-- uploadFile -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumFramework.Omayo@77b14724]" started-at="2025-05-04T15:29:09 IST" name="teardown" finished-at="2025-05-04T15:29:13 IST" duration-ms="3316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- seleniumFramework.PracticePage -->
-    </test> <!-- Test on firefox -->
+      </class> <!-- seleniumFramework.Omayo -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

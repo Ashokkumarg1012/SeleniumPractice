@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumFramework.PracticePage">
+      <class name="seleniumFramework.Omayo">
         <methods>
+          <include name="dropdown"/>
           <include name="teardown"/>
-          <include name="initialise"/>
-          <include name="table"/>
+          <include name="setup"/>
+          <include name="Select"/>
+          <include name="isButtonEnabled"/>
+          <include name="uploadFile"/>
         </methods>
-      </class> <!-- seleniumFramework.PracticePage -->
+      </class> <!-- seleniumFramework.Omayo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

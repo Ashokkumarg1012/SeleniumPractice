@@ -5,12 +5,15 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
@@ -31,18 +34,24 @@ public class Base
 		{
 			System.getProperty("webdriver.chrome.driver","C://chromedriver.exe");
 			driver = new ChromeDriver();
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-			driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			
+			
 		}
 		else if(browserName.equalsIgnoreCase("firefox"))
 		{
 			System.getProperty("webdriver.chrome.driver","C://geckodriver.exe");
 			driver = new FirefoxDriver();	
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-			driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 			driver.manage().window().maximize();
 		}
+	}
+	
+	public void scrollTo(WebElement ele)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView()", ele);
 	}
 
 
@@ -61,6 +70,12 @@ public class Base
 		File dest = new File(System.getProperty("user.dir")+"//reports//img.png");
 		FileUtils.copyFile(src, dest);		
 		
+	}
+	public void hover(WebElement ele)
+	{
+		Actions a=new Actions(driver);
+		
+		a.moveToElement(ele).perform();
 	}
 	
 	@AfterClass

@@ -9,7 +9,7 @@
     </classes>
   </test> <!-- Test -->
   
-  <test name="Test on firefox">
+  <test name="Test on firefox" enabled="true">
    <parameter name="browserName" value="firefox"></parameter>
     <classes>
       <class name="seleniumFramework.PracticePage"/>

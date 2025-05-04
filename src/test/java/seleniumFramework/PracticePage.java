@@ -27,6 +27,7 @@ public class PracticePage extends Base {
 		
 //		String title = driver.getTitle();
 //		System.out.println(title);
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.xpath("//input[@value='radio1']")).click();
 		
 		List<WebElement> radioButtons = driver.findElements(By.className("radioButton"));
@@ -155,9 +156,8 @@ public class PracticePage extends Base {
 	@Test(priority=10)
 	public void mousehover() {
 		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView()", driver.findElement(By.xpath("//legend[text()='Mouse Hover Example']")));
-		Actions a=new Actions(driver);
 		WebElement ele = driver.findElement(By.xpath("//legend[text()='Mouse Hover Example']//following::button"));
-		a.moveToElement(ele).perform();
+		hover(ele);
 		
 		List<WebElement> list = driver.findElements(By.xpath("//div[@class='mouse-hover-content']//child::a"));
 		for(WebElement i:list)
